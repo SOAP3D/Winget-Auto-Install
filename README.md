@@ -14,4 +14,4 @@ ________________________________________________________________________________
 Just open PowerShell as Administrator and run:
 
 ```Powershell
-irm "https://soap3d.github.io/Winget-Auto-Install/Winget_Autoinstall_Apps.ps1" | iex
+irm "https://soap3d.github.io/Winget-Auto-Install/AutoInstall_Apps.ps1" | iex
