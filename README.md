@@ -1,4 +1,4 @@
-# Winget Auto Install
+# Installing some essential apps using winget
 
 This PowerShell script helps you quickly install a list of essential Windows apps using winget.
 _______________________________________________________________________________________________
