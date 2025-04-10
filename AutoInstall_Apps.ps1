@@ -19,15 +19,15 @@ if (-not $wingetInstalled) {
 # List of applications to install
 $applications = @(
     "Spotify.Spotify",
-    "Google.Chrome",
+    "Zen-Team.Zen-Browser",
+    "Mozilla.Firefox",
     "ElectronicArts.EADesktop",
     "Ubisoft.UbisoftConnect",
     "Valve.Steam",
     "EpicGames.EpicGamesLauncher",
     "Discord.Discord",
     "TeamSpeakSystems.TeamSpeakClient.Beta.6",
-    "JDownloader.JDownloader2",
-    "RustDesk.RustDesk"
+    "JDownloader.JDownloader2",    
 )
 
 # Loop through each application and install
