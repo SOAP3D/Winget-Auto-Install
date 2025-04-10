@@ -1,0 +1,5 @@
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+$Script = Invoke-RestMethod https://api.github.com/repos/SOAP3D/Winget-Auto-Install/contents/Winget_Autoinstall_Apps.ps1?access_token=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 -Headers @{”Accept”= “application/vnd.github.v3.raw”}
+
+Invoke-Expression $Script
