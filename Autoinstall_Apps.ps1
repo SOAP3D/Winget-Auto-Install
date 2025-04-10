@@ -1,3 +1,14 @@
+<#
+.SYNOPSIS
+  Automatically installs a set of commonly used Windows applications using winget.
+
+.DESCRIPTION
+  This PowerShell script checks if winget (Windows Package Manager) is installed on the system.
+  If available, it proceeds to install a predefined list of popular applications silently.
+  Each app is installed using winget with minimal user interaction. If an app fails to install,
+  the script continues with the next one, logging basic success/failure messages to the console.
+#>
+
 # Ensure winget is available on the system
 $wingetInstalled = Get-Command winget -ErrorAction SilentlyContinue
 if (-not $wingetInstalled) {
