@@ -39,7 +39,7 @@ $applications = @(
     "Microsoft.VCRedist.2013.x86",
     "Microsoft.VCRedist.2015+.x64",   
     "Microsoft.VCRedist.2015+.x86",
-    "JDownloader.JDownloader2",    
+    "JDownloader.JDownloader2"    
 )
 
 # Loop through each application and install
