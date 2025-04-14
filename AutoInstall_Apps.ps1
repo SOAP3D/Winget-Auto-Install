@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-  Automatically installs a set of commonly used Windows applications using winget.
+  Automatically installs a set of commonly used Windows applications and runtimes using winget.
 
 .DESCRIPTION
   This PowerShell script checks if winget (Windows Package Manager) is installed on the system.
@@ -20,6 +20,7 @@ if (-not $wingetInstalled) {
 $applications = @(
     "Zen-Team.Zen-Browser",
     "Mozilla.Firefox",
+    "Google.Chrome",
     "ElectronicArts.EADesktop",
     "Ubisoft.UbisoftConnect",
     "Valve.Steam",
