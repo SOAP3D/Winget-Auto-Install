@@ -18,9 +18,8 @@ if (-not $wingetInstalled) {
 
 # List of applications to install
 $applications = @(
-    "Zen-Team.Zen-Browser",
+    "eloston.ungoogled-chromium",
     "Mozilla.Firefox",
-    "Google.Chrome",
     "ElectronicArts.EADesktop",
     "Ubisoft.UbisoftConnect",
     "Valve.Steam",
