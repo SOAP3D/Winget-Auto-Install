@@ -18,15 +18,6 @@ if (-not $wingetInstalled) {
 
 # List of applications to install
 $applications = @(
-    "eloston.ungoogled-chromium",
-    "Mozilla.Firefox",
-    "ElectronicArts.EADesktop",
-    "Ubisoft.UbisoftConnect",
-    "Valve.Steam",
-    "EpicGames.EpicGamesLauncher",
-    "Discord.Discord",
-    "TeamSpeakSystems.TeamSpeakClient.Beta.6",
-    "Spotify.Spotify",
     "Microsoft.VCRedist.2005.x64",   
     "Microsoft.VCRedist.2005.x86",    
     "Microsoft.VCRedist.2008.x64",    
@@ -39,7 +30,18 @@ $applications = @(
     "Microsoft.VCRedist.2013.x86",
     "Microsoft.VCRedist.2015+.x64",   
     "Microsoft.VCRedist.2015+.x86",
-    "JDownloader.JDownloader2"    
+    "eloston.ungoogled-chromium",
+    "Mozilla.Firefox",
+    "ElectronicArts.EADesktop",
+    "Ubisoft.UbisoftConnect",
+    "Valve.Steam",
+    "EpicGames.EpicGamesLauncher",
+    "Discord.Discord",
+    "TeamSpeakSystems.TeamSpeakClient.Beta.6",
+    "Spotify.Spotify",
+    "JDownloader.JDownloader2",
+	  "REALiX.HWiNFO",
+	  "geeksoftwareGmbH.PDF24Creator"
 )
 
 # Loop through each application and install
